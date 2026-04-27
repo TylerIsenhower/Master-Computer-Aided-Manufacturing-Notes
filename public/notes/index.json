@@ -1,0 +1,294 @@
+[
+  {
+    "id": "2",
+    "title": "Technical Drawing and CAD",
+    "notes": [
+      {
+        "name": "Auxiliary Views",
+        "path": "Auxiliary Views.md",
+        "chapter": "2"
+      },
+      {
+        "name": "Computer-Aided Design (CAD)",
+        "path": "Computer-Aided Design (CAD).md",
+        "chapter": "2"
+      },
+      {
+        "name": "Dimensioning and Tolerances",
+        "path": "Dimensioning and Tolerances.md",
+        "chapter": "2"
+      },
+      {
+        "name": "Introduction to Technical Drawing",
+        "path": "Introduction to Technical Drawing.md",
+        "chapter": "2"
+      },
+      {
+        "name": "Isometric Projection",
+        "path": "Isometric Projection.md",
+        "chapter": "2"
+      },
+      {
+        "name": "Orthographic Projection",
+        "path": "Orthographic Projection.md",
+        "chapter": "2"
+      },
+      {
+        "name": "Sectioning",
+        "path": "Sectioning.md",
+        "chapter": "2"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Numerical Control",
+    "notes": [
+      {
+        "name": "CNC Machines",
+        "path": "CNC Machines.md",
+        "chapter": "3"
+      },
+      {
+        "name": "Control Classification",
+        "path": "Control Classification.md",
+        "chapter": "3"
+      },
+      {
+        "name": "History of Numerical Control",
+        "path": "History of Numerical Control.md",
+        "chapter": "3"
+      },
+      {
+        "name": "Matrices and Matrix Operations",
+        "path": "Matrices and Matrix Operations.md",
+        "chapter": "3"
+      },
+      {
+        "name": "NC Code Syntax and G-M Codes",
+        "path": "NC Code Syntax and G-M Codes.md",
+        "chapter": "3"
+      },
+      {
+        "name": "Position and Speed Control",
+        "path": "Position and Speed Control.md",
+        "chapter": "3"
+      },
+      {
+        "name": "Vectors and Matrices in NC",
+        "path": "Vectors and Matrices in NC.md",
+        "chapter": "3"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Computer-Aided Manufacturing (CAM)",
+    "notes": [
+      {
+        "name": "Computer-Assisted Part Programming (CAM)",
+        "path": "Computer-Assisted Part Programming (CAM).md",
+        "chapter": "4"
+      },
+      {
+        "name": "Introduction to CAM and NC Programming",
+        "path": "Introduction to CAM and NC Programming.md",
+        "chapter": "4"
+      },
+      {
+        "name": "Lathe Programming",
+        "path": "Lathe Programming.md",
+        "chapter": "4"
+      },
+      {
+        "name": "Manual Programming - Mill and Drill",
+        "path": "Manual Programming - Mill and Drill.md",
+        "chapter": "4"
+      },
+      {
+        "name": "NC System Types",
+        "path": "NC System Types.md",
+        "chapter": "4"
+      },
+      {
+        "name": "Positioning and Compensation",
+        "path": "Positioning and Compensation.md",
+        "chapter": "4"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Manufacturing Systems",
+    "notes": [
+      {
+        "name": "Automated Production Lines",
+        "path": "Automated Production Lines.md",
+        "chapter": "5"
+      },
+      {
+        "name": "CNC Machining and Turning Centers",
+        "path": "CNC Machining and Turning Centers.md",
+        "chapter": "5"
+      },
+      {
+        "name": "Flexible Manufacturing Systems (FMS)",
+        "path": "Flexible Manufacturing Systems (FMS).md",
+        "chapter": "5"
+      },
+      {
+        "name": "Group Technology and Cellular Manufacturing",
+        "path": "Group Technology and Cellular Manufacturing.md",
+        "chapter": "5"
+      },
+      {
+        "name": "Machine Clusters and Operator Utilization",
+        "path": "Machine Clusters and Operator Utilization.md",
+        "chapter": "5"
+      },
+      {
+        "name": "Manufacturing Systems and Capacity Analysis",
+        "path": "Manufacturing Systems and Capacity Analysis.md",
+        "chapter": "5"
+      },
+      {
+        "name": "Modern Manufacturing Paradigms and The Toyota Way",
+        "path": "Modern Manufacturing Paradigms and The Toyota Way.md",
+        "chapter": "5"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Process Economics",
+    "notes": [
+      {
+        "name": "Cutting Fluids and Wetting",
+        "path": "Cutting Fluids and Wetting.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Cutting Tools and Tool Life",
+        "path": "Cutting Tools and Tool Life.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Finishing Processes and Grinding",
+        "path": "Finishing Processes and Grinding.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Hole Making and Specialized Operations",
+        "path": "Hole Making and Specialized Operations.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Machining Economics",
+        "path": "Machining Economics.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Milling Analysis",
+        "path": "Milling Analysis.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Theoretical Surface Finish Analysis",
+        "path": "Theoretical Surface Finish Analysis.md",
+        "chapter": "6"
+      },
+      {
+        "name": "Turning Analysis",
+        "path": "Turning Analysis.md",
+        "chapter": "6"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Geometric Dimensioning & Tolerancing (GD&T)",
+    "notes": [
+      {
+        "name": "GD&T Rules and Principles",
+        "path": "GD&T Rules and Principles.md",
+        "chapter": "7"
+      },
+      {
+        "name": "GD&T Standards and Components",
+        "path": "GD&T Standards and Components.md",
+        "chapter": "7"
+      },
+      {
+        "name": "Geometric Controls - Form",
+        "path": "Geometric Controls - Form.md",
+        "chapter": "7"
+      },
+      {
+        "name": "Geometric Controls - Location and Runout",
+        "path": "Geometric Controls - Location and Runout.md",
+        "chapter": "7"
+      },
+      {
+        "name": "Geometric Controls - Orientation and Profile",
+        "path": "Geometric Controls - Orientation and Profile.md",
+        "chapter": "7"
+      },
+      {
+        "name": "Introduction to GD&T",
+        "path": "Introduction to GD&T.md",
+        "chapter": "7"
+      },
+      {
+        "name": "Metrology and Measuring Devices",
+        "path": "Metrology and Measuring Devices.md",
+        "chapter": "7"
+      },
+      {
+        "name": "Modifiers and Material Conditions",
+        "path": "Modifiers and Material Conditions.md",
+        "chapter": "7"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Computer-Aided Metrology",
+    "notes": [
+      {
+        "name": "Dimensional Measurement Systems",
+        "path": "Dimensional Measurement Systems.md",
+        "chapter": "8"
+      },
+      {
+        "name": "Form and Shape Measurement Systems",
+        "path": "Form and Shape Measurement Systems.md",
+        "chapter": "8"
+      },
+      {
+        "name": "High-Precision Non-Contact Sensors",
+        "path": "High-Precision Non-Contact Sensors.md",
+        "chapter": "8"
+      },
+      {
+        "name": "Introduction to Computer-Aided Metrology",
+        "path": "Introduction to Computer-Aided Metrology.md",
+        "chapter": "8"
+      },
+      {
+        "name": "Microscopic and Internal Measurement",
+        "path": "Microscopic and Internal Measurement.md",
+        "chapter": "8"
+      },
+      {
+        "name": "Optical Metrology and Interferometry",
+        "path": "Optical Metrology and Interferometry.md",
+        "chapter": "8"
+      },
+      {
+        "name": "Surface Finish Measurement",
+        "path": "Surface Finish Measurement.md",
+        "chapter": "8"
+      }
+    ]
+  }
+]

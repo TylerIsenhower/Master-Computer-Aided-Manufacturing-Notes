@@ -1,0 +1,21 @@
+{
+  "name": "mmet-380-website",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "sync": "node sync-notes.cjs",
+    "build": "node sync-notes.cjs && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.1",
+    "katex": "^0.16.45",
+    "lucide": "^1.11.0",
+    "marked": "^18.0.2"
+  }
+}
