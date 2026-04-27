@@ -17,7 +17,7 @@ const updateIcons = () => createIcons({
 async function init() {
   updateIcons();
   try {
-    const response = await fetch('/notes/master.md');
+    const response = await fetch('./notes/master.md');
     let markdown = await response.text();
     
     // Clean markdown (remove metadata if any)
