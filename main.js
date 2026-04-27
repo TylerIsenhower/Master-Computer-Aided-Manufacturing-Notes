@@ -1,23 +1,19 @@
-import './style.css';
-import 'katex/dist/katex.min.css';
-import { createIcons, Layers, ChevronRight, BookOpen, Menu, X, Home, Hash } from 'lucide';
-import { marked } from 'marked';
-import DOMPurify from 'dompurify';
-import renderMathInElement from 'katex/dist/contrib/auto-render';
-
+// Pure JS - No imports needed
 const navContent = document.getElementById('nav-content');
 const mainView = document.getElementById('main-view');
 const mainTitle = document.getElementById('main-title');
 const breadcrumb = document.getElementById('breadcrumb');
 
-const updateIcons = () => createIcons({
-  icons: { Layers, ChevronRight, BookOpen, Menu, X, Home, Hash }
-});
+// Update icons using Lucide global
+const updateIcons = () => lucide.createIcons();
 
 async function init() {
   updateIcons();
   try {
-    const response = await fetch('./notes/master.md');
+    // We use a relative path that works both locally and on GitHub Pages
+    const response = await fetch('./public/notes/master.md');
+    if (!response.ok) throw new Error('Note not found');
+    
     let markdown = await response.text();
     
     // Clean markdown (remove metadata if any)
@@ -27,14 +23,16 @@ async function init() {
     const headers = parseHeaders(markdown);
     renderSidebar(headers);
     
-    // Render Content
+    // Render Content using Marked global
     const html = marked.parse(markdown);
+    
+    // Sanitize using DOMPurify global
     mainView.innerHTML = DOMPurify.sanitize(html);
     mainView.classList.add('note-content');
     mainTitle.textContent = "MMET 380 Master Study Guide";
     breadcrumb.textContent = "Course / Master Guide";
 
-    // Math Rendering
+    // Math Rendering using KaTeX global
     renderMathInElement(mainView, {
       delimiters: [
         {left: '$$', right: '$$', display: true},
@@ -49,7 +47,7 @@ async function init() {
     updateIcons();
   } catch (error) {
     console.error('Failed to load master guide:', error);
-    mainView.innerHTML = '<div class="error">Failed to load the master study guide.</div>';
+    mainView.innerHTML = `<div class="error">Failed to load the master study guide. Check if public/notes/master.md exists.</div>`;
   }
 }
 
@@ -113,4 +111,5 @@ function addHeaderIds() {
   h3s.forEach(h => h.id = slugify(h.textContent));
 }
 
+// Initial load
 init();
